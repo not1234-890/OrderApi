@@ -1,4 +1,4 @@
-package com.javatpoint;
+package com.orderAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
