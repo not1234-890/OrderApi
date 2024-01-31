@@ -1,26 +1,27 @@
-package com.orderAPI.service;
+package com.naceAPI.service;
 
 import com.naceAPI.controller.MockitoJUnitRunner;
 import com.naceAPI.controller.RunWith;
+import com.naceAPI.repository.NaceRepository;
 import com.naceAPI.repository.OrderRepository;
 
 @RunWith(MockitoJUnitRunner.class)
 public class OrderServiceTest {
 
 	@Mock
-	OrderRepository orderRepository;
+	NaceRepository naceRepository;
 	
-	OrderService orderService;
+	NaceService naceService;
 	
 	@BeforeEach
 	public void init() {
-		this.orderService = new OrderService();
+		this.naceService = new NaceService();
 	}
 	
 	@Test 
 	public void getAllOrders()
     {
-        orderService.getAllOrders();
-        verify(orderRepository).findAll();
+		naceService.getAllDetails();
+        verify(naceRepository).findAll();
     }
 }
