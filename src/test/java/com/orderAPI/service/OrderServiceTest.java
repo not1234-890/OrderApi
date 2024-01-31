@@ -1,8 +1,8 @@
 package com.orderAPI.service;
 
-import com.orderAPI.controller.MockitoJUnitRunner;
-import com.orderAPI.controller.RunWith;
-import com.orderAPI.repository.OrderRepository;
+import com.naceAPI.controller.MockitoJUnitRunner;
+import com.naceAPI.controller.RunWith;
+import com.naceAPI.repository.OrderRepository;
 
 @RunWith(MockitoJUnitRunner.class)
 public class OrderServiceTest {

@@ -19,10 +19,10 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Optional;
 
-import com.orderAPI.service.BeforeEach;
-import com.orderAPI.service.OrderService;
-import com.orderAPI.util.OrderStatus;
-import com.orderAPI.model.Orders;
+import com.naceAPI.model.Orders;
+import com.naceAPI.service.BeforeEach;
+import com.naceAPI.service.OrderService;
+import com.naceDetails.util.OrderStatus;
 
 @WebMvcTest
 @RunWith(MockitoJUnitRunner.class)
